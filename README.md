@@ -66,6 +66,13 @@ Cooperation approaches in MARL.
 
 ***
 
+### Model-based Multi-agent Reinforcement Learning: Recent Progress and Prospects
+
+- Paper Link: [arXiv 2203.10603](https://arxiv.org/abs/2203.10603)
+- Review: 
+
+***
+
 ### An Overview of Multi-Agent Reinforcement Learning from Game Theoretical Perspective
 
 - Paper Link: [arXiv 2011.00583](https://arxiv.org/abs/2011.00583)
@@ -123,3 +130,11 @@ Common learning paradigms of MARL algorithms.
 
 
 
+
+
+# Github Responsity:
+
+- Multi Agent Reinforcement Learning papers(latest commit 2022.09): https://github.com/TimeBreaker/Multi-Agent-Reinforcement-Learning-papers 
+- MARL papers with code(latest commit 2022.09): https://github.com/TimeBreaker/MARL-papers-with-code
+
+- MARL resources collection(latest commit 2022.10): https://github.com/TimeBreaker/MARL-resources-collection
