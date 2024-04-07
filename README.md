@@ -26,6 +26,9 @@
 ### A Survey of Progress on Cooperative Multi-agent Reinforcement Learning in Open Environment
 
 - Paper Link: [arXiv 2312.01058](https://arxiv.org/abs/2312.01058)
+- Framework Overview:
+
+<img src="./images/arXiv2312_01058_framework.png" style="zoom: 60%;" />
 
 <img src="./images/arXiv2312_01058_training.png" style="zoom:67%;" />
 
@@ -37,9 +40,36 @@
 
 ***
 
+### Distributed Reinforcement Learning for Robot Teams: A Review
+
+- Paper Link: [arXiv 2204.03516](https://arxiv.org/abs/2204.03516)
+
+- Framework Overview:
+
+    This work focuses on robot teams in both fully cooperative and mixed cooperative-competitive settings.
+
+<img src="./images/arXiv2204_03516_challenge.png" style="zoom:67%;" />
+
+​	Key challenges in MARL: 
+​	(a) Non-Stationarity - Agents learn in an ever-changing environment, where other agents also constantly update their behavior. As a result, predictions based on past experiences may not be accurate anymore. Here, agent A (wrongly) predicts that agent B will go for the left mushroom. 
+​	(b) Scalability - Agents trained in a smaller team may struggle at generalizing their strategy to a larger one. 
+​	(c) Partial Observability - Agents may be confused by shared rewards, which often depend on the action of agents beyond their sensing range. 
+​	(d) Communication - Agents need to identify and encode relevant information in a commonly agreed upon manner, and must often learn to select whom to speak/listen to, to avoid being overwhelmed. Here, agent A cannot understand the useful message from agent B, deciding instead to listen to the useless, yet understandable message from agent C. 
+
+<img src="./images/arXiv2204_03516_approach.png" style="zoom: 67%;" />
+
+Cooperation approaches in MARL. 
+	(a) Independent Learning - Agents learn policies (here, from individual rewards) by treating other agents as part of their common environment. 
+	(b) During training, a Centralized Critic can provide a more accurate cooperative baseline - the state value, i.e., the expected long-term return from the current state, by relying on augmented state and policy information from all agents. Learned policies remain decentralized. 
+	(c) Factorized Value Functions - Agents learn to explicitly address the credit assignment problem to transform a shared reward into individual contributions that can be used to update their individual policy 
+	(d) Communication Learning - Agents learn to identify, encode, and share relevant information to augment each other’s knowledge about the system.
+
+***
+
 ### An Overview of Multi-Agent Reinforcement Learning from Game Theoretical Perspective
 
 - Paper Link: [arXiv 2011.00583](https://arxiv.org/abs/2011.00583)
+- Framework Overview: 
 
  <img src="./images/arXiv2011_00583_MARL_topology.png" style="zoom: 67%;" />
 
@@ -71,7 +101,7 @@ Common learning paradigms of MARL algorithms.
 
 ***
 
-#### 多智能体深度强化学习的若干关键科学问题
+### 多智能体深度强化学习的若干关键科学问题
 
 - Paper Link: [中国自动化学报ACTA 2020.7](http://www.aas.net.cn/fileZDHXB/journal/article/zdhxb/2020/7/PDF/AAS-CN-2020-0159.pdf)
 
