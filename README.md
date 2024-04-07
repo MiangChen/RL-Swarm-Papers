@@ -43,10 +43,7 @@
 ### Distributed Reinforcement Learning for Robot Teams: A Review
 
 - Paper Link: [arXiv 2204.03516](https://arxiv.org/abs/2204.03516)
-
 - Framework Overview:
-
-    This work focuses on robot teams in both fully cooperative and mixed cooperative-competitive settings.
 
 <img src="./images/arXiv2204_03516_challenge.png" style="zoom:67%;" />
 
@@ -63,6 +60,9 @@ Cooperation approaches in MARL.
 	(b) During training, a Centralized Critic can provide a more accurate cooperative baseline - the state value, i.e., the expected long-term return from the current state, by relying on augmented state and policy information from all agents. Learned policies remain decentralized. 
 	(c) Factorized Value Functions - Agents learn to explicitly address the credit assignment problem to transform a shared reward into individual contributions that can be used to update their individual policy 
 	(d) Communication Learning - Agents learn to identify, encode, and share relevant information to augment each other’s knowledge about the system.
+
+- Review: 
+    This work focuses on robot teams in both fully cooperative and mixed cooperative-competitive settings.
 
 ***
 
@@ -128,9 +128,13 @@ Common learning paradigms of MARL algorithms.
 
 ***
 
+### PRIMAL: Pathfinding via Reinforcement and Imitation Multi-Agent Learning
+
+- Paper Link: [IEEE 2019.2903261](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8661608)
 
 
 
+***
 
 # Github Responsity:
 
