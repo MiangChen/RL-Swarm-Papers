@@ -40,6 +40,12 @@
 
 ***
 
+### Multi-Agent Deep Reinforcement Learning for Multi-Robot Applications: A Survey
+
+- Paper Link: [Sensor 2023.03](https://www.mdpi.com/1424-8220/23/7/3625)
+
+***
+
 ### Distributed Reinforcement Learning for Robot Teams: A Review
 
 - Paper Link: [arXiv 2204.03516](https://arxiv.org/abs/2204.03516)
@@ -69,7 +75,6 @@ Cooperation approaches in MARL.
 ### Model-based Multi-agent Reinforcement Learning: Recent Progress and Prospects
 
 - Paper Link: [arXiv 2203.10603](https://arxiv.org/abs/2203.10603)
-- Review: 
 
 ***
 
@@ -120,7 +125,10 @@ Common learning paradigms of MARL algorithms.
 
 ***
 
+Chinese Web
 
+- Multi-agent pathfinding 传统方法和强化学习结合的多智能体路径规划 [Zhihu 2020.12](https://zhuanlan.zhihu.com/p/337729123)
+- 
 
 ## Papers
 
@@ -128,11 +136,45 @@ Common learning paradigms of MARL algorithms.
 
 ***
 
+### Deep Reinforcement Learning-based Large-scale Robot Exploration
+
+- Paper Link: [arXiv 2403](https://arxiv.org/html/2403.10833v1), [Homepage](https://github.com/marmotlab/large-scale-DRL-exploration)
+
+***
+
+### Efficient Multi-agent Reinforcement Learning by Planning
+
+- Paper Link: [ICLR 2024.01](https://openreview.net/forum?id=CpnKq3UJwp)
+
+***
+
+### Predator–prey survival pressure is sufficient to evolve swarming behaviors
+
+- Paper Link: [New Journal of Physics 2023.08](https://iopscience.iop.org/article/10.1088/1367-2630/acf33a/pdf)
+
+***
+
+### Safe Interval Path Planning With Kinodynamic Constraints
+
+- Paper Link: [arXiv 2023.02](https://arxiv.org/abs/2302.00776v1)
+
+***
+
 ### PRIMAL: Pathfinding via Reinforcement and Imitation Multi-Agent Learning
 
-- Paper Link: [IEEE 2019.2903261](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8661608)
+- Paper Link: [IEEE 2019](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8661608)
 
+***
 
+### SIPP: Safe Interval Path Planning for Dynamic Environments
+
+- Paper Link: [IEEE 2011](https://ieeexplore.ieee.org/document/5980306)
+
+***
+
+### Conflict-based search for optimal multi-agent pathfinding
+
+- Paper Link: [Elsevier 2014.11](https://www.sciencedirect.com/science/article/pii/S0004370214001386)
 
 ***
 
@@ -142,3 +184,17 @@ Common learning paradigms of MARL algorithms.
 - MARL papers with code(latest commit 2022.09): https://github.com/TimeBreaker/MARL-papers-with-code
 
 - MARL resources collection(latest commit 2022.10): https://github.com/TimeBreaker/MARL-resources-collection
+
+
+
+***
+
+### Open Source Env
+
+- Multi-Agent path planning in Python: [Github Link](https://github.com/atb033/multi_agent_path_planning?tab=readme-ov-file)
+
+<img src="https://github.com/atb033/multi_agent_path_planning/raw/master/centralized/sipp/results/success.gif" alt="Success" style="zoom:50%;" />
+
+<img src="https://github.com/atb033/multi_agent_path_planning/raw/master/centralized/cbs/results/test_3.gif" alt="Test 3" style="zoom:50%;" />
+
+- 
